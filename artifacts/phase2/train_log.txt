@@ -1,0 +1,1 @@
+epoch=1 train_total=0.420663 train_recon=0.417558 train_kl=31.052542 val_total=0.332650 val_recon=0.332456 val_kl=1.935498
