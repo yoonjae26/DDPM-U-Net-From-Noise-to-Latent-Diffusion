@@ -1,0 +1,23 @@
+# dataset
+Data/
+datasets/
+
+# checkpoints / models
+checkpoints/
+*.pt
+*.pth
+
+# logs
+runs/
+logs/
+
+# cache
+__pycache__/
+*.pyc
+
+# system
+.DS_Store
+
+# images temp
+*.jpg
+*.png
