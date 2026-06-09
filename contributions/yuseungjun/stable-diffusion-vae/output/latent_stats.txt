@@ -1,0 +1,15 @@
+model_id: stabilityai/sd-vae-ft-mse
+input_image: /Users/yuseungjun/Downloads/학생증.jpeg
+preprocessed_size: (512, 320)
+latent_shape: (1, 4, 40, 64)
+scaling_factor: 0.18215
+latent_mean: 0.04206068441271782
+latent_std: 0.8667406439781189
+input_shape_chw: (3, 320, 512)
+latent_shape_chw: (4, 40, 64)
+input_values: 491520
+latent_values: 10240
+compression_ratio: 48.0
+mse: 0.003355942666530609
+mae: 0.02531197853386402
+psnr_db: 24.74185467337401

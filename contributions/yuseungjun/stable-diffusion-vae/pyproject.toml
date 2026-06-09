@@ -1,0 +1,17 @@
+[project]
+name = "stable-diffusion-vae-demo"
+version = "0.1.0"
+description = "Pretrained Stable Diffusion VAE encode/decode demo for latent diffusion presentations"
+requires-python = ">=3.9"
+dependencies = [
+    "diffusers>=0.35.0",
+    "matplotlib>=3.9.0",
+    "numpy>=1.26.0",
+    "pillow>=10.0.0",
+    "safetensors>=0.4.0",
+    "torch>=2.2.0",
+    "transformers>=4.44.0",
+]
+
+[tool.uv]
+package = false
