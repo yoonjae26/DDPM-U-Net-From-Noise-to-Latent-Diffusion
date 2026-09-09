@@ -10,6 +10,14 @@ ROOT = Path(__file__).resolve().parents[1]
 PHASE_TO_SCRIPT = {
     1: "scripts/phase1_dataset_pipeline.py",
     2: "scripts/phase2_train_vae.py",
+    3: "scripts/phase3_latent_space_viewer.py",
+    4: "scripts/phase4_diffusion_core.py",
+    5: "scripts/phase5_latent_unet.py",
+    6: "scripts/phase6_train_latent_diffusion.py",
+    7: "scripts/phase7_reverse_diffusion.py",
+    8: "scripts/phase8_forward_diffusion_viewer.py",
+    9: "scripts/phase9_reverse_diffusion_viewer.py",
+    11: "scripts/phase11_scheduler_stability_lab.py",
 }
 
 

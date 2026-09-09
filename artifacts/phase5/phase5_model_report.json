@@ -1,0 +1,31 @@
+{
+  "device": "cuda",
+  "batch_size": 2,
+  "latent_channels": 4,
+  "latent_size": 32,
+  "base_channels": 64,
+  "channel_mults": [
+    1,
+    2,
+    4
+  ],
+  "params": 4555588,
+  "timesteps_range": [
+    0,
+    999
+  ],
+  "input_shape": [
+    2,
+    4,
+    32,
+    32
+  ],
+  "output_shape": [
+    2,
+    4,
+    32,
+    32
+  ],
+  "output_mean": -0.013978419825434685,
+  "output_std": 0.36605656147003174
+}

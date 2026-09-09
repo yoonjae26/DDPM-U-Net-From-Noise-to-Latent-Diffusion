@@ -1,0 +1,64 @@
+{
+  "conditions": {
+    "linear_noclip": {
+      "scheduler": "linear",
+      "clip_x0": false,
+      "clip_range": 4.0,
+      "beta_tail_last5": [
+        0.019920319318771362,
+        0.019940240308642387,
+        0.019960159435868263,
+        0.01998008042573929,
+        0.019999999552965164
+      ],
+      "final_std": 1.8926070928573608,
+      "final_max_abs": 7.301003932952881,
+      "diverged": false
+    },
+    "linear_clip": {
+      "scheduler": "linear",
+      "clip_x0": true,
+      "clip_range": 4.0,
+      "beta_tail_last5": [
+        0.019920319318771362,
+        0.019940240308642387,
+        0.019960159435868263,
+        0.01998008042573929,
+        0.019999999552965164
+      ],
+      "final_std": 1.9238544702529907,
+      "final_max_abs": 4.000001907348633,
+      "diverged": false
+    },
+    "cosine_noclip": {
+      "scheduler": "cosine",
+      "clip_x0": false,
+      "clip_range": 4.0,
+      "beta_tail_last5": [
+        0.35999226570129395,
+        0.437492311000824,
+        0.5555805563926697,
+        0.750044584274292,
+        0.9990000128746033
+      ],
+      "final_std": 3273.7421875,
+      "final_max_abs": 13070.6025390625,
+      "diverged": false
+    },
+    "cosine_clip": {
+      "scheduler": "cosine",
+      "clip_x0": true,
+      "clip_range": 4.0,
+      "beta_tail_last5": [
+        0.35999226570129395,
+        0.437492311000824,
+        0.5555805563926697,
+        0.750044584274292,
+        0.9990000128746033
+      ],
+      "final_std": 1.2901524305343628,
+      "final_max_abs": 4.0,
+      "diverged": false
+    }
+  }
+}

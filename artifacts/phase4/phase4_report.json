@@ -1,0 +1,110 @@
+{
+  "timesteps": 1000,
+  "input_image": "/home/hong/Deeplearning/DDPM-U-Net-From-Noise-to-Latent-Diffusion/artifacts/phase1/preprocessed_images/train/000001.jpg",
+  "checkpoint": "/home/hong/Deeplearning/DDPM-U-Net-From-Noise-to-Latent-Diffusion/artifacts/phase2_h200_full/vae_last.pt",
+  "norm_mode": "diffusion",
+  "latent_shape": [
+    1,
+    256
+  ],
+  "view_steps": [
+    {
+      "label": 0,
+      "index": 0
+    },
+    {
+      "label": 100,
+      "index": 100
+    },
+    {
+      "label": 300,
+      "index": 300
+    },
+    {
+      "label": 700,
+      "index": 700
+    },
+    {
+      "label": 1000,
+      "index": 999
+    }
+  ],
+  "schedulers": {
+    "linear": {
+      "beta_min": 9.999999747378752e-05,
+      "beta_max": 0.019999999552965164,
+      "alpha_hat_final": 4.035829260828905e-05,
+      "samples": [
+        {
+          "label": 0,
+          "index": 0,
+          "latent_mean": 0.12616845965385437,
+          "latent_std": 1.2636089324951172
+        },
+        {
+          "label": 100,
+          "index": 100,
+          "latent_mean": 0.110017329454422,
+          "latent_std": 1.2409443855285645
+        },
+        {
+          "label": 300,
+          "index": 300,
+          "latent_mean": 0.05621109530329704,
+          "latent_std": 1.0905520915985107
+        },
+        {
+          "label": 700,
+          "index": 700,
+          "latent_mean": -0.019188161939382553,
+          "latent_std": 0.9398993253707886
+        },
+        {
+          "label": 1000,
+          "index": 999,
+          "latent_mean": -0.02896794304251671,
+          "latent_std": 0.9346622824668884
+        }
+      ],
+      "grid_path": "/home/hong/Deeplearning/DDPM-U-Net-From-Noise-to-Latent-Diffusion/artifacts/phase4/forward_diffusion_linear.png"
+    },
+    "cosine": {
+      "beta_min": 4.124641418457031e-05,
+      "beta_max": 0.9990000128746033,
+      "alpha_hat_final": 2.428147682920212e-09,
+      "samples": [
+        {
+          "label": 0,
+          "index": 0,
+          "latent_mean": 0.12627871334552765,
+          "latent_std": 1.2635350227355957
+        },
+        {
+          "label": 100,
+          "index": 100,
+          "latent_mean": 0.11964273452758789,
+          "latent_std": 1.259455680847168
+        },
+        {
+          "label": 300,
+          "index": 300,
+          "latent_mean": 0.09831570088863373,
+          "latent_std": 1.2113747596740723
+        },
+        {
+          "label": 700,
+          "index": 700,
+          "latent_mean": 0.03022611141204834,
+          "latent_std": 1.0221561193466187
+        },
+        {
+          "label": 1000,
+          "index": 999,
+          "latent_mean": -0.029765766113996506,
+          "latent_std": 0.9344307780265808
+        }
+      ],
+      "grid_path": "/home/hong/Deeplearning/DDPM-U-Net-From-Noise-to-Latent-Diffusion/artifacts/phase4/forward_diffusion_cosine.png"
+    }
+  }
+}

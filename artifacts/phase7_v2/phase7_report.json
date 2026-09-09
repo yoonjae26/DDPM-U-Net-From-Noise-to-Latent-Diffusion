@@ -1,0 +1,24 @@
+{
+  "scheduler": "cosine",
+  "timesteps": 1000,
+  "sampler": "ddpm",
+  "ddim_steps": null,
+  "eta": null,
+  "seed": 123,
+  "num_samples": 4,
+  "save_steps": [
+    {
+      "label": 0,
+      "index": 0
+    }
+  ],
+  "unet_checkpoint": "/home/hong/Deeplearning/DDPM-U-Net-From-Noise-to-Latent-Diffusion/artifacts/phase6_v2/unet_last.pt",
+  "vae_checkpoint": "/home/hong/Deeplearning/DDPM-U-Net-From-Noise-to-Latent-Diffusion/artifacts/phase2_lpips/vae_last.pt",
+  "latent_scaling": "/home/hong/Deeplearning/DDPM-U-Net-From-Noise-to-Latent-Diffusion/artifacts/phase6_v2/latent_scaling.json",
+  "latent_scaling_factor": 1.035481251689534,
+  "channel_mults": [
+    1,
+    2,
+    4
+  ]
+}

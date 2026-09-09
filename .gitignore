@@ -17,7 +17,13 @@ __pycache__/
 
 # system
 .DS_Store
+.venv/
 
-# images temp
+# generated images/artifacts, except the curated README showcase assets
 *.jpg
 *.png
+!docs/assets/**
+!contributions/**
+
+# large regenerable manifest (202k rows, ~88MB) -- artifacts/phase1/manifest.parquet is the tracked copy
+artifacts/phase1/manifest.csv
